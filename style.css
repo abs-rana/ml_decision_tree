@@ -1,0 +1,75 @@
+body {
+	font-family: Arial;
+}
+
+.outer-scontainer-left {
+	background: #F0F0F0;
+	border: #e0dfdf 1px solid;
+	padding: 20px;
+	border-radius: 2px;
+	width: 48%;
+	float: left;
+}
+
+.outer-scontainer-right {
+	background: #F0F0F0;
+	border: #e0dfdf 1px solid;
+	padding: 20px;
+	border-radius: 2px;
+	width: 44%;
+	float: right;
+	margin-left: 10px;
+}
+
+.input-row {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.btn-submit {
+	background: #333;
+	border: #1d1d1d 1px solid;
+	color: #f0f0f0;
+	font-size: 0.9em;
+	width: 100px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.outer-scontainer-left table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.outer-scontainer-left th {
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.outer-scontainer-left td {
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+#response {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    display:none;
+}
+
+.success {
+    background: #c7efd9;
+    border: #bbe2cd 1px solid;
+}
+
+.error {
+    background: #fbcfcf;
+    border: #f3c6c7 1px solid;
+}
+
+div#response.display-block {
+    display: block;
+}
